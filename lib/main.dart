@@ -3,12 +3,10 @@ import 'gpsdomundo_theme.dart';
 import 'home.dart';
 
 void main() {
-  // 1
   runApp(const GpsDoMundo());
 }
 
 class GpsDoMundo extends StatelessWidget {
-  // 2
   const GpsDoMundo({super.key});
   @override
   Widget build(BuildContext context) {
@@ -18,8 +16,7 @@ class GpsDoMundo extends StatelessWidget {
     return MaterialApp(
       theme: theme,
       title: 'GPS do Mundo',
-      // 4
-      home: const Home(),
+      home: const Home()
     );
   }
 }
