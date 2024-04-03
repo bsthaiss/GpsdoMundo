@@ -15,11 +15,10 @@ class AuthorCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // TODO: Substitua return Container(...) por...
     return Container(
       padding: const EdgeInsets.all(16),
       child: Row(
-        mainAxisAlignment: MainAxisAlignment.spaceBetween,criando cartões - parte 1
+        mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
           CircleImage(imageProvider: imageProvider,
           imageRadius: 28,
